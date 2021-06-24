@@ -309,3 +309,19 @@ li {
   .success-stories .stories-carousel .card .card-media figure {
   margin: 0;
 }
+
+.features{
+    display: grid;
+    height: 660px;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    /* grid-template-columns: 300px, 300px);
+    grid-template-columns: repeat(2, 300px);
+    grid-template-columns: 500px 1fr; */
+  }
+  
+  .feature-art {
+    background-color: #a1d683;
+    margin: 10px;
+    width: 40%;
+    height: 50px;
+  }
