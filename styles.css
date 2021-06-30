@@ -4,7 +4,8 @@ body {
 }
 
 h1 {
-    color: blue;
+    color: rgb(221, 197, 58);
+    font-size: 70px;
 }
 
 h2 {
@@ -579,6 +580,7 @@ li {
   color: #025157;
   font-weight: 400;
   text-align: center;
+}
 
 .how-does-it-work .steps .card-step .card-step-body p {
   font-size: 15px;
@@ -599,6 +601,37 @@ li {
 
 
 
+
+
+@media (max-width: 575px) {
+  .navbar, .actions {
+    display: none;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+}
+
+
+
+
+
+@media (max-width: 575px) {
+  .publish > form {
+    flex-direction: column;
+  }
+
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .publish > form > div > input {
+    width: 65%;
+  }
+}
 
 
 
