@@ -67,11 +67,11 @@ li {
     height: 100%;
 }
 
-.navbar{
+/* .navbar{
     width: 70%;
     text-align: center;
     color: #025157;
-}
+} */
 
 /*
 .navbar > ul > li {
@@ -604,9 +604,9 @@ li {
 
 
 @media (max-width: 575px) {
-  .navbar, .actions {
+  /* .navbar, .actions {
     display: none;
-  }
+  } */
 
   h1 {
     font-size: 30px;
