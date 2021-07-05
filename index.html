@@ -15,7 +15,7 @@
 <body>
 
     <!-- Nuestra barra de navegación comentada va aquí -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">
             <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
         </a>
@@ -30,7 +30,7 @@
                     <a class="nav-link" href="#">Platform</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="./pricing.html">Pricing</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Customers</a>
@@ -103,6 +103,21 @@
 
 
 
+    <button type="button" class="btn btn-primary">
+        Mensajes nuevos <span class="badge badge-light">100</span>
+        <span class="sr-only">unread messages</span>
+    </button>
+    <div class="spinner-border text-warning" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%"
+            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            Cargando...
+        </div>
+    </div>
 
     <main>
         <h1>Etiqueta H1</h1>
